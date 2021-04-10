@@ -1,9 +1,9 @@
 function writeCards(arr_str , name){
   for(let i=0 ; i< arr_str.length ; i++){
-    console.log(`Thank you, ${arr_str[i]} , for the wonderful ${name} gift!`);
+    arr_str.push(`Thank you, ${arr_str[i]} , for the wonderful ${name} gift!`);
 
   }
-    //arr_str.splice(0,3);
+    arr_str.splice(0,3);
 
     return arr_str;
 }
